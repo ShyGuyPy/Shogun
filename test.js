@@ -33,5 +33,9 @@ function component(width, height, color, x, y) {
 
 function updateGameArea() {
     myGameArea.clear();
+
+    //myGamePiece.x += 1;
+
     myGamePiece.update();
+
 }
